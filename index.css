@@ -50,8 +50,29 @@
     height: 20vh;
     width: 90vw;
 }
+#date{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: x-large;
+    color: white;
+}
+.likeusto{text-align: center;}
+#conbutton{
+    background-color: azure;
+    padding:2px; border:2px solid rgb(235, 225, 225); 
+    border-radius: 5px;
+    text-decoration:none;
+}
+#conbutton:hover{
+    background-color: rgb(96, 97, 97);
+    padding:2px; border:2px solid rgb(235, 225, 225);
+    color: white; 
+    border-radius: 5px;
+    text-decoration:none;
+}
 footer{
     font-family: 'PT Sans', sans-serif;
-    background: black;
+    background: black;  
     color: rgb(255, 255, 255);
 }

@@ -16,18 +16,20 @@
         <div id="minute"></div>
         <div id="second"></div>
     </div>
+    <p id="date"></p>
     <footer>
         <div style="text-align: center;">
-            CREATED BY &copy; AKSHAT LOHAR
+            CREATED BY &copy; AKSHAT LOHAR<br><br>
+            <a id="conbutton"href="contactme.html">Contact Me</a>
         </div>
-        <div class="likeusto">
-            <p style="color: ivory;margin-top: 10px;display: block;text-align: center;">Contact Me :
-                <a href="contactme.html"
-                    style="background-color: azure;padding:2px; border:2px solid rgb(235, 225, 225); border-radius: 5px;text-decoration:none;">Go
-                    to details</a>
-            </p>
-        </div>
+    
     </footer>
+    <script>
+        setInterval(()=>{
+            const d = new Date();
+            document.getElementById("date").innerHTML = d;
+        },1000);
+    </script>
 
 </body>
 
